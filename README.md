@@ -5,7 +5,6 @@ deploy game-2048:
 kubectl create deployment game-2048 --image=blackicebird/2048
 kubectl expose deployment game-2048 --port=80 --name=game-2048
 ```
-> user: `admin` pass: `admin`
 
 delete everything:
 ```bash
